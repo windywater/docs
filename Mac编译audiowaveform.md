@@ -1,0 +1,1 @@
+cmake -D ENABLE_TESTS=0 -D BUILD_STATIC=1 -DPNG_PNG_INCLUDE_DIR=/usr/local/Cellar/libpng/1.6.35/include -DPNG_LIBRARY=/usr/local/Cellar/libpng/1.6.35/lib/libpng.a -DZLIB_INCLUDE_DIR=/usr/local/Cellar/zlib/1.2.11/include -DZLIB_LIBRARY=/usr/local/Cellar/zlib/1.2.11/lib/libz.a ..
